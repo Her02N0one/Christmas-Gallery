@@ -2,17 +2,39 @@
 .mySlides1, .mySlides2 {display: none}
 img {vertical-align: middle;}
 
+body {
+  background-color: rgb(201, 197, 197);
+}
+
+header {
+  list-style-type: none;
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
 h1 {
   display:block;
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.introduction-wrapper {
+  padding-top: 10px;
+  text-align: center;
+  height: 50%;
+
+}
+
 .introduction {
+  width: 50%;
   border-radius: 15px;
   color: rgb(201, 197, 197);
   display: inline-block;
-  position: relative; 
   background-color: rgb(102, 102, 102);
 }
 
@@ -24,7 +46,7 @@ h1 {
 }
 
 .slideshow-wrapper p {
-  font-size: 25px;
+  font-size: 30px;
   text-align: left;
 }
 
@@ -54,7 +76,6 @@ img{
 
 /* Next & previous buttons */
 .prev, .next {
-  border: 1px solid red;
   cursor: pointer;
   position: absolute;
   top: 50%;
